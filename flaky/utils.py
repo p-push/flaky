@@ -9,6 +9,7 @@ except NameError:
 
 
 def ensure_unicode_string(string):
+    return str(string)
     try:
         return unicode_type(string)
     except UnicodeDecodeError:

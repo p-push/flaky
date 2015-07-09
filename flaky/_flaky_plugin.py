@@ -1,6 +1,9 @@
 # coding: utf-8
 
-from io import StringIO
+try:
+    from cStringIO import StringIO
+except ImportError:
+    from io import StringIO
 from flaky import defaults
 from flaky.names import FlakyNames
 from flaky.utils import ensure_unicode_string
