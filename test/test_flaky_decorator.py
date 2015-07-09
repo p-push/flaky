@@ -1,6 +1,5 @@
 # coding: utf-8
 
-from __future__ import unicode_literals
 from flaky.flaky_decorator import flaky
 from flaky.names import FlakyNames
 from test.base_test_case import TestCase

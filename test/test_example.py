@@ -1,6 +1,5 @@
 # coding: utf-8
 
-from __future__ import unicode_literals
 
 # This is an end-to-end example of the flaky package in action. Consider it
 # a live tutorial, showing the various features in action.

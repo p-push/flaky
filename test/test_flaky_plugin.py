@@ -1,6 +1,5 @@
 # coding: utf-8
 
-from __future__ import unicode_literals
 from genty import genty, genty_dataset
 from io import StringIO
 from flaky._flaky_plugin import _FlakyPlugin

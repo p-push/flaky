@@ -1,6 +1,5 @@
 # coding: utf-8
 
-from __future__ import unicode_literals
 from io import StringIO
 from mock import Mock, patch
 # pylint:disable=import-error
